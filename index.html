@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body class="bg-light">
+  <!--bodyのbackgroundに色を付ける-->
+  <div class="container w-75">
+    <!--widthを75%まで指定-->
+    <h1 class="text-cecter text-info my-4">TODO</h1>
+    <!--テキストを中央にしてテキストの色を変えて上下のマージンを1.5rem-->
+    <form id="form" class="mb-4">
+      <!--下側のマージンを1.5rem-->
+      <input type="text" id="input" class="form-control" placeholder="TODOを入力" autocomplete="off">
+      <!--Formのテキストフォームやスタイル、サイズ、フォーカスの状態の調整-->
+    </form>
+    <ul class="list-group" text-secondary id="ul"></ul>
+    <!--見た目を整えて文字の色を変える-->
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
+<!--
+  タスクばらし
+  ・HTML　todo入力フォーム作成
+  ・Bootstrap　見た目を整える
+  ・javascript　todoを表示・保存
+  ・javascript　todoを削除
+  ・javascript　todoを完了
+-->
